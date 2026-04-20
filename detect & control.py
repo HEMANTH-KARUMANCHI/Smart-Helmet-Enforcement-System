@@ -56,6 +56,7 @@ GPIO.setup(But, GPIO.IN)
 GPIO.setup(Buz, GPIO.OUT)
 model = YOLO(r'best.pt')
 
+# defining LCD screen setup
 lcd.text('Smart Bike', 1)
 lcd.text("Connecting... ", 2)
 while 1:
