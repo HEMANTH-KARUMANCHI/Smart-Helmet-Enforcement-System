@@ -7,8 +7,10 @@ import math
 #for video
 cap = cv2.VideoCapture(0)
 
+#model
 model = YOLO("best(3).pt")
 
+# classes -> with helmet, without helmet
 classNames = ['With_helmet', 'Without_helmet']
 myColor = (0, 0, 255)
 
