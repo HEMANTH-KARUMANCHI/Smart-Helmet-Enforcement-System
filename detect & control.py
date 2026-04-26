@@ -152,7 +152,7 @@ def gen_frames():
      b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
 
-
+#routing
 @app.route('/')
 def index():
    return render_template('index.html')
