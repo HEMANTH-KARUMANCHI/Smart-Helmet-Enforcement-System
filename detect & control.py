@@ -1,10 +1,10 @@
 #import required libraries
 from flask import Flask, render_template, Response
 import cv2
-from ultralytics import YOLO
-from picamera2 import Picamera2
-from rpi_lcd import LCD
-import RPi.GPIO as GPIO
+from ultralytics import YOLO   #importing model
+from picamera2 import Picamera2   #camera access
+from rpi_lcd import LCD   #lcd display access
+import RPi.GPIO as GPIO   #GPIO i/o access
 from time import sleep
 import time
 import subprocess
