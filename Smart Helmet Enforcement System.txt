@@ -35,6 +35,7 @@ Step 5: Transfer Model to Raspberry Pi:
 • Connect the Raspberry Pi to the internet via Wi-Fi or Ethernet.
 • Transfer the trained YOLO model file (e.g., weights and .cfg files) to the Raspberry Pi 
 using SCP (Secure Copy Protocol) or other file transfer methods.
+• ALso, can use VNC viewer that can operate the connectivity with the os of Raspberry Pi.
 • Place the model files in the appropriate directory on the Raspberry Pi.
 
 
